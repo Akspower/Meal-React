@@ -1,0 +1,23 @@
+body{
+    background-color: #212121;
+    color: antiquewhite;
+}
+
+.hover_effect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    transition: 0.7 ease;
+}
+.hover_effect img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7 ease;
+    transform: translateZ(0);
+}
+.hover_effect:hover img{
+    transform: scale(1.1) translateZ(50px);
+}
