@@ -10,7 +10,7 @@ function App(){
 
   return(
 <div>
-{/* <Movie/> */}
+<Movie/>
 
 {/* <UseEffect/> */}
 
@@ -20,7 +20,7 @@ function App(){
 
 {/* <MultipleInputHandle/> */}
 
-<Meal/>
+{/* <Meal/> */}
   </div>
   );
 
